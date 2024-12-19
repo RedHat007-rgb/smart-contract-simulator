@@ -36,6 +36,9 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+migrations/
+test/
+
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
@@ -96,6 +99,7 @@ __sapper__
 .env.production
 .env.local
 .env.*.local
+truffle-config.js
 
 # npm package logs
 npm-debug.log*

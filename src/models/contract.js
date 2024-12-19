@@ -8,16 +8,16 @@ const contractSchema = new schema({
         require:true
     },
     rules:{
-        type:String,
+        type:Array,
         require:true,
     },
     createdate:{
-        type:Date
+        type:String
     },
     updatedAt:{
-        type:Date
+        type:String
 
     },
 })
 
-module.export = mongoose.model("contacts",contractSchema);
+module.exports = mongoose.model("contracts",contractSchema);
